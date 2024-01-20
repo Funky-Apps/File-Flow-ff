@@ -135,7 +135,7 @@ const RegisterScreen = () => {
         name: nameRef.current.value,
         email: emailRef.current.value,
         mobileNumber: mobileNumberRef.current.value,
-        userRole: "Admin", // userRoleRef.current.value,
+        userRole: "Normal user", // userRoleRef.current.value,
       };
 
       await createUserService(userData).then((res) => {

@@ -170,7 +170,7 @@ const SingleFile = ({ file, fromRecycle }) => {
   return (
     <Container>
       <FileContent>
-        <FileName>{file.fileId}</FileName>
+        <FileName>{file.name}</FileName>
 
         {!fromRecycle && (
           <Dropdown
